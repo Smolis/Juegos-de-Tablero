@@ -1,0 +1,16 @@
+Each player begins with two pieces.
+
+During their turn, players move one of their pieces either one or two spaces in any direction if possible.
+
+Diagonal distances are equivalent to orthogonal distances, e.g. it is legal to move to a square whose relative position is two squares away both vertically 
+and horizontally. If the destination is adjacent to the source, a new piece is created on the empty departure square. 
+Otherwise the piece on the source moves to the destination.
+After the move, all of the opponent player's pieces adjacent to the destination square are converted to the color of the moving player. 
+Players must move unless no legal move is possible, in which case they must pass.
+
+The board configuration may be altered by having certain squares filled (not playable by either player), or using different board sizes.
+
+The game ends when all squares have been filled or all the players except one have no remaining pieces. 
+The player with the most pieces wins. 
+A draw may occur when the number of squares are even, either from non playable squares or non standard sizes having an even number of squares.
+Some versions also implement the threefold repetition rule from chess.

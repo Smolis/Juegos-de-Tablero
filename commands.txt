@@ -1,0 +1,23 @@
+[-d <arg>] [-g <game identifier>] [-h] [-m] [-o <arg>] [-p <list of players>] [-v <view identifier>]
+
+ -d,--dim <arg>                   The board size (if allowed by the selected game). 
+ 								  It must has the form ROWSxCOLS.
+ 								  
+ -g,--game <game identifier>      The game to play ( cn [for ConnectN] ttt [for Tic-Tac-Toe] 
+ 								  attt [for Advanced Tic-Tac-Toe] ataxx [for ATAXX] ). By defualt, ataxx.
+ 								  
+ -h,--help                        Print this message
+ 
+ -m,--multiviews                  Create a separate view for each player(valid only when using the window view)
+ 
+ -o,--obstacles <arg>             The number of squares occupied by obstacles(if allowed)
+ 
+ -p,--players <list of players>   A player has the form A:B (or A), where A is sequence of characters 
+ 								  (without any whitespace) to be used for the piece identifier, 
+ 								  and B is the player mode (m [for Manual] r [for Random] a [for Automatics]). 
+ 								  If B is not given, the default mode 'm' is used. 
+ 								  If this option is not given a default list of pieces from the corresponding 
+ 								  game is used, each assigmed the mode 'm'.
+ 								  
+ -v,--view <view identifier>      The view to use ( window [for Swing] console [for Console]). 
+ 								  By defualt,window.
